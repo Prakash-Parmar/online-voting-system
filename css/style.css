@@ -1,5 +1,4 @@
 body{
-    text-align: center;
     background-color: aliceblue;
 }
 
@@ -30,6 +29,41 @@ input{
 }
 
 #RegisterBtn{
+    padding: 5px;
+    font-size: 15px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+#address{
+    width: 30%;
+}
+
+#img{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+}
+#role{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+}
+#role select{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#backBtn{
+    padding: 5px;
+    font-size: 15px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+#logoutBtn{
     padding: 5px;
     font-size: 15px;
     background-color: skyblue;
